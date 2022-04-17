@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Months hired calculator</title>
+</head>
+
+<body>
+  <div class="card col-6 center main">
+    <div class="card-body">
+      <div class="container">
+        <h3 class="border-bottom mb-3">Months hired calculator</h3>
+        <div class="inputs mb-3">
+          <div class="input-group mb-3 col-12 col-lg-8 col-xl-6">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Started</span>
+            </div>
+            <input type="date" class="form-control" name="started" id="start-date">
+          </div>
+          <div class="input-group mb-3 col-12 col-lg-8 col-xl-6">
+            <div class="input-group-prepend">
+              <span class="input-group-text">Ended</span>
+            </div>
+            <input type="date" class="form-control" name="ended" id="end-date">
+          </div>
+          <button type="button" class="btn btn-dark" id="calculate-btn">Calculate
+          </button>
+        </div>
+        <div class="output border-top">
+          <h3 id="result"></h3>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="script.js"></script>
+
+</html>
